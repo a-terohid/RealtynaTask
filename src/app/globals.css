@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+@layer base {
+  .container {
+    @apply mx-auto; /* center */
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
