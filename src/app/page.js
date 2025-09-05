@@ -1,6 +1,4 @@
-import Homepage from '@/components/template/Homepage';
-
-
+import Homepage from '../components/template/Homepage';
 
 export const metadata = {
   title: "Real Estate Blog | Insights, Trends & Market News",
