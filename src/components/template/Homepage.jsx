@@ -37,6 +37,9 @@ const Homepage = () => {
             </header>
             {/* posts section */}
             <HomepagePosts />
+            <footer className="w-full bg-neutral-300 text-neutral-50">
+                <p>Realtyna</p>
+            </footer>
         </div>
     );
 };

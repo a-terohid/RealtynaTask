@@ -3,7 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 
 // WordPress REST API endpoint for fetching posts
-const API_URL = process.env.API_URL || ""
+const API_URL = process.env.NEXT_PUBLIC_API_URL || ""
 
 // Custom React Query hook for fetching posts with pagination
 export default function usePosts(page = 1, perPage = 6) {
