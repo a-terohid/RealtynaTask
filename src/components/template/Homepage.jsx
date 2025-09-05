@@ -37,8 +37,8 @@ const Homepage = () => {
             </header>
             {/* posts section */}
             <HomepagePosts />
-            <footer className="w-full bg-neutral-300 text-neutral-50">
-                <p>Realtyna</p>
+            <footer className="w-full bg-neutral-600 text-neutral-50 flex items-center justify-center py-3">
+                <p>Realtyna | Task</p>
             </footer>
         </div>
     );
