@@ -12,17 +12,15 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "Realtyna front end task",
-  description: "Realtyna front end task",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Providers>
         <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
           {children}
+          <footer className="w-full bg-neutral-600 text-neutral-50 flex items-center justify-center py-3">
+                <p>Realtyna | Task</p>
+          </footer>
         </body>
       </Providers>
     </html>
